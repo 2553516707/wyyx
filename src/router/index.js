@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import index from '@/page/index'
+import Axios from 'axios'
+import Details from "@/page/details"
+import Imnr from "@/page/imnr"
+Vue.prototype.$ajax=Axios
+
 
 Vue.use(Router)
 
@@ -8,8 +13,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'index',
+      component: index
+    },
+    {
+      path:"/details",
+      name:Details,
+      component:Details
+    },
+    {
+      path:"/imnr",
+      name:Imnr,
+      component:Imnr
     }
   ]
 })
