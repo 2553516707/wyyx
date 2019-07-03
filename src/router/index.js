@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/page/index'
-import Axios from 'axios'
+
 import Details from "@/page/details"
 import Cycimnr from "@/page/cycimnr"
-Vue.prototype.$ajax=Axios
+
 
 import Super from '../page/Super Membership .vue'
 import Ad1 from '../page/ad1.vue'
@@ -24,17 +24,9 @@ export default new Router({
       component:Details
     },
     {
-<<<<<<< HEAD
       path:"/cycimnr",
       name:Cycimnr,
       component:Cycimnr
-=======
-      path:"/imnr",
-      name:Imnr,
-      component:Imnr
-=======
-      name: 'Super',
-      component: Super
     },
     {
       path: '/ad1',
@@ -45,7 +37,6 @@ export default new Router({
       path: '/ad2',
       name: 'ad2',
       component: Ad2
->>>>>>> 393e921948d78d5ce90c74d63a12e93f33f1b08a
     }
   ]
 })
