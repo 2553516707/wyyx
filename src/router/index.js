@@ -7,8 +7,8 @@ import Cycimnr from "@/page/cycimnr"
 Vue.prototype.$ajax=Axios
 
 import Super from '../page/Super Membership .vue'
-import rem from "../rem"
-
+import Ad1 from '../page/ad1.vue'
+import Ad2 from '../page/ad2.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,9 +24,28 @@ export default new Router({
       component:Details
     },
     {
+<<<<<<< HEAD
       path:"/cycimnr",
       name:Cycimnr,
       component:Cycimnr
+=======
+      path:"/imnr",
+      name:Imnr,
+      component:Imnr
+=======
+      name: 'Super',
+      component: Super
+    },
+    {
+      path: '/ad1',
+      name: 'ad1',
+      component: Ad1
+    },
+    {
+      path: '/ad2',
+      name: 'ad2',
+      component: Ad2
+>>>>>>> 393e921948d78d5ce90c74d63a12e93f33f1b08a
     }
   ]
 })
