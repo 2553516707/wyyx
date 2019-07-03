@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Super from '../page/Super Membership .vue'
-import rem from "../rem"
-
+import Ad1 from '../page/ad1.vue'
+import Ad2 from '../page/ad2.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -11,6 +11,16 @@ export default new Router({
       path: '/',
       name: 'Super',
       component: Super
+    },
+    {
+      path: '/ad1',
+      name: 'ad1',
+      component: Ad1
+    },
+    {
+      path: '/ad2',
+      name: 'ad2',
+      component: Ad2
     }
   ]
 })
