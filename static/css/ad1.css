@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.ad1{
+width: 100%;
+  height: 100%;
+}
+.ad1s{
+    width: 3.75rem;
+    height: 4.34rem;
+}
+.ad1s1{
+    width: 100%;
+    height: 1.5rem;
+    background: url(../img/ad11.jpeg) no-repeat;
+    background-size: cover
+}
+.ad1s2{
+    width: 100%;
+    height: 1.5rem;
+    background: url(../img/ad12.jpeg) no-repeat;
+    background-size: cover
+}
+.ad1s3{
+    width: 100%;
+    height: 1.34rem;
+    background: url(../img/ad13.jpeg) no-repeat;
+    background-size: cover
+}
+.ad1ss1{
+    width: 100%;
+    height: 1.38rem;
+    background: url(../img/ad14.jpeg) no-repeat;
+    background-size: cover
+}
+.ad1ss2{
+    width: 100%;
+    height: 0.87rem;
+    background: url(../img/ad15.jpeg) no-repeat;
+    background-size: cover
+}
+.ad1ss3{
+    width: 100%;
+    height: 1.38rem;
+    background: url(../img/ad16.jpeg) no-repeat;
+    background-size: cover
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+.ul{
+    width: 100%;
+    height: 5rem;
+    margin: 0.1rem auto 0;
+}
+.ul>li{
+    width: 1.74rem;
+    height: 3.4rem;
+    float: left;
+    background-color: red;
+}
+.m1{
+    width: 1.74rem;
+    height: 1.74rem;
+    margin: 0 auto
+}
