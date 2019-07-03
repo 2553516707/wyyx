@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="width:100%;overflow: hidden">
         <div class="logo-img">
             <img src="../../static/details-img/8eae3b3fdae1a8e4025836257ceaff4e.jpg" alt="">
         </div>
