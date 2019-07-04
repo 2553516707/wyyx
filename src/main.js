@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Axios from 'axios'
+import mongo from './db/mongo'
 import  "./router/common.css"
 import  './router/rem'
 import  "./page/index.css"
@@ -20,6 +21,7 @@ Vue.prototype.$http=Axios
 new Vue({
   el: '#app',
   router,
+  mongo,
   components: { App },
   template: '<App/>'
 })

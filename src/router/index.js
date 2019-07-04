@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/page/index'
+import Test from '@/page/test'
 
 import Details from "@/page/details"
 import Cycimnr from "@/page/cycimnr"
@@ -37,6 +38,11 @@ export default new Router({
       path: '/ad2',
       name: 'ad2',
       component: Ad2
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: Test
     }
   ]
 })
