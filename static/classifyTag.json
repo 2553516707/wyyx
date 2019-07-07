@@ -1,0 +1,427 @@
+{
+    "classifyTag": [
+        {
+            "tagId": 1,
+            "tagText": "自家员工眼里，什么值得买",
+            "tagIfy": [
+                {
+                    "shopImg": "../../static/calssify-img/referrals-1.png",
+                    "discountsBol": null,
+                    "discountsDay": 5,
+                    "shopDetails": "防紫外线宽檐遮阳帽",
+                    "shopMoney": 63.2,
+                    "shopNoMoney": 79,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/referrals-2.png",
+                    "discountsBol": null,
+                    "discountsDay": 4,
+                    "shopDetails": "常温低脂纯牛奶 250毫升*24盒减少50%以上,脂肪享受高蛋白低脂肪品质生活",
+                    "shopMoney": 78,
+                    "shopNoMoney": 88,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        },
+                        {
+                            "tag": "加价购"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/referrals-3.png",
+                    "discountsBol": null,
+                    "discountsDay": 2,
+                    "shopDetails": "日本制造 居室香氛蜡烛 3味可选",
+                    "shopMoney": 90.3,
+                    "shopNoMoney": 129,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/referrals-4.png",
+                    "discountsBol": null,
+                    "discountsDay": 2,
+                    "shopDetails": "网易智造随身低频按摩贴专用电极片",
+                    "shopMoney": 34.3,
+                    "shopNoMoney": 49,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/referrals-5.png",
+                    "discountsBol": null,
+                    "discountsDay": 1,
+                    "shopDetails": "提花冰丝席三件套 可折叠凉席",
+                    "shopMoney": 159,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/referrals-6.png",
+                    "discountsBol": null,
+                    "discountsDay": 3,
+                    "shopDetails": "全球通用转换插座",
+                    "shopMoney": 79,
+                    "shopNoMoney": 99,
+                    "paasTag": [
+                        {
+                            "tag": "内部价格"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tagId": "FreshFood=1",
+            "tagText": "",
+            "tagIfy": [
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-1.png",
+                    "discountsBol": "进口椰青，清甜爽口",
+                    "discountsDay": 5,
+                    "shopDetails": "泰国椰青 4颗装",
+                    "shopMoney": 59,
+                    "shopNoMoney": 69,
+                    "paasTag": [
+                        {
+                            "tag": "特价"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-2.png",
+                    "discountsBol": "酸甜适口，还原儿时好味道",
+                    "discountsDay": 3,
+                    "shopDetails": "酸梅汤 350毫升*9瓶",
+                    "shopMoney": 38,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "满4免1"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-3.png",
+                    "discountsBol": "微酸果蜜，清心润心",
+                    "discountsDay": 1,
+                    "shopDetails": "冻干蜂蜜柠檬片 60克",
+                    "shopMoney": 25,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "满3免1"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-4.png",
+                    "discountsBol": "特调绿色汤汁，刷新吃货认知",
+                    "discountsDay": 4,
+                    "shopDetails": "严选椒香小龙虾3斤",
+                    "shopMoney": 89,
+                    "shopNoMoney": 109,
+                    "paasTag": [
+                        {
+                            "tag": "特价"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-5.png",
+                    "discountsBol": "进口菌液发酵，低糖轻饮",
+                    "discountsDay": 2,
+                    "shopDetails": "青梅绿茶康普茶饮料 330毫升*12盒",
+                    "shopMoney": 68,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "满4免1"
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Freshfood-6.png",
+                    "discountsBol": "一级上品，严选有机",
+                    "discountsDay": 2,
+                    "shopDetails": "有机皇菊 0.6克*20朵",
+                    "shopMoney": 78,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "满4免1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tagId": "familylife=1",
+            "tagText": "居家生活爆品推荐",
+            "tagIfy": [
+                {
+                    "shopImg": "../../static/calssify-img/familylife-1.png",
+                    "discountsBol": "超柔针织棉，亲肤可裸睡",
+                    "discountsDay": 5,
+                    "shopDetails": "全棉针织条纹四件套 新款",
+                    "shopMoney": 299,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-2.png",
+                    "discountsBol": "仅售供应商建议价的1/3",
+                    "discountsDay": 3,
+                    "shopDetails": "AB面独立弹簧床垫 进口乳胶原液",
+                    "shopMoney": 2599,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-3.png",
+                    "discountsBol": "轻巧便携，亲肤舒睡",
+                    "discountsDay": 1,
+                    "shopDetails": "自在睡纯棉便携睡袋",
+                    "shopMoney": 129,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-4.png",
+                    "discountsBol": "摘下一颗星，放在你的杯底",
+                    "discountsDay": 4,
+                    "shopDetails": "StarWish 星愿双层玻璃杯",
+                    "shopMoney": 109,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-5.png",
+                    "discountsBol": "仅售供应商建议价1/2",
+                    "discountsDay": 2,
+                    "shopDetails": "泰国制造 天然乳胶床垫 5CM标准款",
+                    "shopMoney": 1999,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-6.png",
+                    "discountsBol": "可视化收纳，拿取方便",
+                    "discountsDay": 2,
+                    "shopDetails": "大容量可折叠布艺收纳箱",
+                    "shopMoney": 79,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tagId": "newfamilylife=1",
+            "tagText": "居家生活爆品推荐",
+            "tagIfy": [
+                {
+                    "shopImg": "../../static/calssify-img/familylife-1.png",
+                    "discountsBol": "超柔针织棉，亲肤可裸睡",
+                    "discountsDay": 5,
+                    "shopDetails": "全棉针织条纹四件套 新款",
+                    "shopMoney": 299,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-2.png",
+                    "discountsBol": "仅售供应商建议价的1/3",
+                    "discountsDay": 3,
+                    "shopDetails": "AB面独立弹簧床垫 进口乳胶原液",
+                    "shopMoney": 2599,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-3.png",
+                    "discountsBol": "轻巧便携，亲肤舒睡",
+                    "discountsDay": 1,
+                    "shopDetails": "自在睡纯棉便携睡袋",
+                    "shopMoney": 129,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-4.png",
+                    "discountsBol": "摘下一颗星，放在你的杯底",
+                    "discountsDay": 4,
+                    "shopDetails": "StarWish 星愿双层玻璃杯",
+                    "shopMoney": 109,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-5.png",
+                    "discountsBol": "仅售供应商建议价1/2",
+                    "discountsDay": 2,
+                    "shopDetails": "泰国制造 天然乳胶床垫 5CM标准款",
+                    "shopMoney": 1999,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/familylife-6.png",
+                    "discountsBol": "可视化收纳，拿取方便",
+                    "discountsDay": 2,
+                    "shopDetails": "大容量可折叠布艺收纳箱",
+                    "shopMoney": 79,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tagId": "Summercool=1",
+            "tagText": "清凉一夏",
+            "tagIfy": [
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-1.png",
+                    "discountsBol": "可裸睡针织棉，植物抗菌柔弹",
+                    "discountsDay": 5,
+                    "shopDetails": "全棉针织条纹大豆纤维夏被 可机洗",
+                    "shopMoney": 199,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-2.png",
+                    "discountsBol": "持久冷感贴肤，抗菌可水洗清凉3季",
+                    "discountsDay": 3,
+                    "shopDetails": "黑科技·冰能持久冷感夏凉被 升级款 ",
+                    "shopMoney": 319,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-3.png",
+                    "discountsBol": "抗菌凉滑可水洗，100%蚕丝填充",
+                    "discountsDay": 1,
+                    "shopDetails": "40s竹语天丝印花蚕丝夏被 可水洗",
+                    "shopMoney": 399,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-4.png",
+                    "discountsBol": "100%优等桑蚕丝，天丝爽滑贴肤",
+                    "discountsDay": 4,
+                    "shopDetails": "60s天丝绣花桑蚕丝夏被 可机洗",
+                    "shopMoney": 599,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-5.png",
+                    "discountsBol": "三峡水牛头层皮，高端夏凉必备",
+                    "discountsDay": 2,
+                    "shopDetails": "新色 奢华植鞣头层水牛皮席 凉席三件套",
+                    "shopMoney": 2599,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": null
+                        }
+                    ]
+                },
+                {
+                    "shopImg": "../../static/calssify-img/Summercool-6.png",
+                    "discountsBol": "玉石冷感纤维，可水洗接触清凉",
+                    "discountsDay": 2,
+                    "shopDetails": " 黑科技吸放湿超冷感垫 夏凉垫可机洗",
+                    "shopMoney": 199,
+                    "shopNoMoney": null,
+                    "paasTag": [
+                        {
+                            "tag": "APP特惠"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

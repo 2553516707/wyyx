@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+<<<<<<< HEAD
+import Classify from '@/page/classify.vue'//分类页
+import csifySet from '@/page/classify-set.vue'//分类详情列表
+=======
 import index from '@/page/index'
 import Test from '@/page/test'
+>>>>>>> 5aab8b2a0ff1ce07e40585c390381f25151f2cb7
 
 import Details from "@/page/details"
 import Cycimnr from "@/page/cycimnr"
@@ -15,6 +20,19 @@ import Ad2 from '../page/ad2.vue'
 Vue.use(Router)
 
 export default new Router({
+<<<<<<< HEAD
+  mode: 'history',
+  routes: [
+    {
+      path: '/classify',
+      name: 'classify',
+      component: Classify
+    },
+    {
+      path: '/csifyset/:id',
+      name: 'csifySet',
+      component: csifySet
+=======
   mode:"history",
   routes: [
     {
@@ -56,6 +74,7 @@ export default new Router({
       path: '/login',
       name: Login,
       component: Login
+>>>>>>> 5aab8b2a0ff1ce07e40585c390381f25151f2cb7
     }
   ]
 })
