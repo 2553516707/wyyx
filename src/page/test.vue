@@ -1,27 +1,20 @@
 <template>
-    
+    <div>sfuhjsa</div>
 </template>
 
 <script>
+
 export default {
 
     mounted() {
-           var entity = new myModel({
-                name: 'zhangsan',
-                img: 'sadyfgasdhf',
-                price: '515',
-                num: 5,
-                choose:'白色'
-            });
-
-            entity.save((err, doc)=>{
-                if(err){
-                    console.log(err);
-                }else{
-                    console.log(doc);
-                }
-            });
-
+        // console.log(1)
+        // this.$http.get("http://localhost:8080/test").then(result => {
+        // this.data = result.data;
+        // console.log(result.data)
+        // //  for(var i=0;i<this.data.length;i++){
+        // //     //  this.img.push(this.data[i].img)
+        // //  }
+        // });
 
     },
 }

@@ -1,7 +1,7 @@
 <template>
     <div style="width:100%;overflow: hidden">
         <div class="logo-img">
-            <img src="../../static/details-img/8eae3b3fdae1a8e4025836257ceaff4e.jpg" alt="">
+            <img id="goods_img" src="../../static/details-img/8eae3b3fdae1a8e4025836257ceaff4e.jpg" alt="">
         </div>
         <div class="detchara">
           <div class="det-item">
@@ -22,12 +22,12 @@
                 <div class="dt-pirce">
                     <div>
                         <span>￥</span>
-                        <span>249</span>
+                        <span id='price'>249</span>
                     </div>
                 </div>
                 <div class="dt-base">
                     <div class="base-left">
-                        <p>女式花卉度假飘逸连衣裙</p>
+                        <p id="goods_tit">女式花卉度假飘逸连衣裙</p>
                         <p>浪漫茶歇裙，悠闲假日袅袅而至。</p>
                     </div>
                     <div class="base-right">
@@ -89,38 +89,51 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
   </div>
 </template>
 
 <script>
-import "swiper/dist/css/swiper.css";
-import { swiper, swiperSlide } from "vue-awesome-swiper";
 
+import axios from 'axios'
+import qs from 'qs'
+// axios.defaults.baseURL='http://localhost:3000';  //设置一个类似base_url的请求路径
+global.axios=axios;  //设置一个全局axios便于调用
 export default {
   data() {
     return {
-      // swiperOption: {
-      //     loop: true,
-      //     // some swiper options/callbacks
-      //     // 所有的参数同 swiper 官方 api 参数
-      //     pagination: {
-      //       el: ".swiper-pagination",
-      //       clickable: true
-      //     }
-      //     // ...
-      //   }
+        goods:{
+            "goods_tit":'',
+            "goods_img":'',
+            "price":0,
+            "goods_color":'',
+            "goods_num":1,
+        }
     };
-  }
+  },
+  mounted() {
+      var _this= this
+      document.getElementsByClassName('inner-buttom')[0].onclick=function(){
+          _this.goods['goods_tit']=document.getElementById('goods_tit').innerHTML
+        //   _this.goods['goods_img']=document.getElementById('goods_img').getAttribute('src')
+          _this.goods['price']=document.getElementById('price').innerHTML
+          _this.$router.push({name:'cycimnr',params:_this.goods})
+        //   console.log(qs.stringify(_this.goods))
+          
+        //     var instance = axios.create({ headers: {'content-type': 'application/x-www-form-urlencoded'} });
+        //     instance.post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
+        //         console.log(response.data)
+        //   }).catch(function(err){
+        //       console.log(err)
+        //   });
+          
+        //   post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
+        //         console.log(response.data)
+        //   }).catch(function(err){
+        //       console.log(err)
+        //   });
+
+      }
+  },
 };
 </script>
 

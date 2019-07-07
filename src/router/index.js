@@ -5,6 +5,8 @@ import Test from '@/page/test'
 
 import Details from "@/page/details"
 import Cycimnr from "@/page/cycimnr"
+import ShoppingCart from "@/page/shoppingCart"
+import Login from "../components/login"
 
 
 import Super from '../page/Super Membership .vue'
@@ -13,6 +15,7 @@ import Ad2 from '../page/ad2.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode:"history",
   routes: [
     {
       path: '/',
@@ -26,7 +29,7 @@ export default new Router({
     },
     {
       path:"/cycimnr",
-      name:Cycimnr,
+      name:'cycimnr',
       component:Cycimnr
     },
     {
@@ -43,6 +46,16 @@ export default new Router({
       path: '/test',
       name: 'test',
       component: Test
+    },
+    {
+      path: '/shoppingCart',
+      name: ShoppingCart,
+      component: ShoppingCart
+    },
+    {
+      path: '/login',
+      name: Login,
+      component: Login
     }
   ]
 })

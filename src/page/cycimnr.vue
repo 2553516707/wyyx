@@ -3,11 +3,11 @@
         <div class="dl-pase">
              <div class="info-con">
                  <div class="info-img">
-                     <img src="../../static/details-img/imer.png" alt="">
+                     <img id="goods_img" src="../../static/details-img/imer.png" alt="">
                  </div>
                  <div class="info-text">
                      <div>
-                         <p class="price">价格：¥<span>89</span></p>
+                         <p class="price">价格：¥<span >89</span></p>
                          <p>已选择：<span>请选择规格数量</span></p>
                      </div>
                  </div>
@@ -15,17 +15,16 @@
              <div class="sty">
                  <div class="color">
                      <p>颜色</p>
-                     <ul>
-                         <li>岩石灰</li>
-                         <li>黑色</li>
-                         <li>卡其色</li>
+                     <ul id="color">
+                         <li v-for="(item,index) in color" :key="index">{{item}}</li>
+                         
                      </ul>
                  </div>
                  <div class="color">
                     <p>数量</p>
                     <ul class="num">
                          <li>-</li>
-                         <li>1</li>
+                         <li id="goods_num">1</li>
                          <li>+</li>
                     </ul>
                  </div>
@@ -41,6 +40,40 @@
 
 <script>
 export default {
+
+data() {
+    return {
+        goods:{},
+        color:["岩石灰","黑色","卡其色"]
+        
+    }
+},
+mounted() {
+    this.goods=this.$route.params
+    console.log(this.goods)
+    var _this = this
+    _this.goods['goods_img']=document.getElementById('goods_img').getAttribute('src')
+    var oColor = document.querySelectorAll("#color li")
+    for(var i=0;i<oColor.length;i++){
+        oColor[i].onclick=function(){
+            _this.goods.goods_color=this.innerHTML
+            console.log(_this.goods)
+        }
+    }
+    
+    document.getElementsByClassName('inner-buttom')[0].onclick=function(){
+        // _this.goods['goods_num']=document.getElementById('goods_tit').innerHTML
+        console.log(_this.goods)
+        
+        _this.$http({
+                method:'get',
+                url:"http://localhost:3000/wyyx",
+                params:_this.goods
+            }).then((res)=>{
+                console.log(res.data)
+            })
+     }
+},
 
 }
 </script>
