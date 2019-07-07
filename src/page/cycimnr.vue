@@ -49,7 +49,7 @@ data() {
     }
 },
 mounted() {
-    this.goods=this.$route.params
+    this.goods=this.$route.query
     console.log(this.goods)
     var _this = this
     _this.goods['goods_img']=document.getElementById('goods_img').getAttribute('src')
@@ -67,7 +67,7 @@ mounted() {
         
         _this.$http({
                 method:'get',
-                url:"http://localhost:3000/wyyx",
+                url:"http://localhost:3000/wyyx/add",
                 params:_this.goods
             }).then((res)=>{
                 console.log(res.data)

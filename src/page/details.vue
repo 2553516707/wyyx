@@ -84,7 +84,7 @@
                 <div class="inner">
                     <div class="inner-but"><img src="../../static/details-img/but.png" alt=""></div>
                     <button class="in-buttom">立即购买</button>
-                    <button class="inner-buttom">加入购物车</button>
+                    <button class="inner-buttom" @click="tocyc">加入购物车</button>
                 </div>
             </div>
         </div>
@@ -110,29 +110,43 @@ export default {
         }
     };
   },
-  mounted() {
-      var _this= this
-      document.getElementsByClassName('inner-buttom')[0].onclick=function(){
-          _this.goods['goods_tit']=document.getElementById('goods_tit').innerHTML
+  methods: {
+      tocyc(){
+          this.goods['goods_tit']=document.getElementById('goods_tit').innerHTML
         //   _this.goods['goods_img']=document.getElementById('goods_img').getAttribute('src')
-          _this.goods['price']=document.getElementById('price').innerHTML
-          _this.$router.push({name:'cycimnr',params:_this.goods})
-        //   console.log(qs.stringify(_this.goods))
-          
-        //     var instance = axios.create({ headers: {'content-type': 'application/x-www-form-urlencoded'} });
-        //     instance.post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
-        //         console.log(response.data)
-        //   }).catch(function(err){
-        //       console.log(err)
-        //   });
-          
-        //   post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
-        //         console.log(response.data)
-        //   }).catch(function(err){
-        //       console.log(err)
-        //   });
-
+          this.goods['price']=document.getElementById('price').innerHTML
+          this.$router.push({name:'cycimnr',query:this.goods})
       }
+  },
+  mounted() {
+    //   var _this= this
+    //   document.getElementsByClassName('inner-buttom')[0].onclick=function(){
+    //       _this.goods['goods_tit']=document.getElementById('goods_tit').innerHTML
+    //     //   _this.goods['goods_img']=document.getElementById('goods_img').getAttribute('src')
+    //       _this.goods['price']=document.getElementById('price').innerHTML
+    //       _this.$router.push({name:'cycimnr',query:_this.goods})
+    //     //   console.log(qs.stringify(_this.goods))
+    //     //   _this.$http({
+    //     //         method:'get',
+    //     //         url:"http://localhost:3000/wyyx/add",
+    //     //         params:_this.goods
+    //     //     }).then((res)=>{
+    //     //         console.log(res.data)
+    //     //     })
+    //     //     var instance = axios.create({ headers: {'content-type': 'application/x-www-form-urlencoded'} });
+    //     //     instance.post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
+    //     //         console.log(response.data)
+    //     //   }).catch(function(err){
+    //     //       console.log(err)
+    //     //   });
+          
+    //     //   post("http://localhost:3000/wyyx",qs.stringify(_this.goods)).then(function(response){
+    //     //         console.log(response.data)
+    //     //   }).catch(function(err){
+    //     //       console.log(err)
+    //     //   });
+
+    //   }
   },
 };
 </script>

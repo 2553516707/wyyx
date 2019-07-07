@@ -36,7 +36,7 @@
         </div>
         <div>
           <ul class="cartGroupList">
-            <li class="item">
+            <li class="item" >
               <div class="m-cartGroup m-cartGroup-empty m-cartGroup-overall">
                 <div>
                   <header class="hd">
@@ -60,7 +60,7 @@
                 <ul class="list"></ul>
               </div>
             </li>
-            <li class="item cartList">
+            <li class="item cartList" v-for="(item,index) in list" :key="index">
               <div class="m-cartGroup">
                 <div>
                   <header class="hd">
@@ -89,7 +89,7 @@
                               <i class="m-checkbox checkbox"></i>
                               <div class="imgWrap">
                                 <img
-                                  src="http://yanxuan.nosdn.127.net/6dbf167f17960ec395af8ce9d6732014.png?imageView&amp;thumbnail=160x0&amp;quality=75"
+                                  :src=item.goods_img
                                   class="img"
                                 >
                               </div>
@@ -98,24 +98,24 @@
                                   <div class="name">
                                     <span class="nameIn">
                                       <span></span>
-                                      <span>青梅饼 56克</span>
+                                      <span>{{item.goods_tit}}</span>
                                     </span>
                                   </div>
                                 </div>
                                 <div class="line2 valid">
-                                  <span class="spec">陈皮梅饼 56克*1袋</span>
+                                  <span class="spec">{{item.goods_tit}}+"*"+{{item.goods_num}}</span>
                                   <i class="u-icon u-icon-arrow_black_ic"></i>
                                 </div>
                                 <div class="line3">
                                   <span class="price f-ff-m">
                                     <span>¥</span>
-                                    <span>16</span>
+                                    <span class="prices">{{item.price*item.goods_num}}</span>
                                   </span>
                                 </div>
                                 <div class="m-selnum m-selnum-2 dl">
                                   <i class="less z-dis" style="display:inline-block"></i>
                                   <div class="textWrap">
-                                    <input type="tel" value="1">
+                                    <input type="tel" :value=item.goods_num>
                                   </div>
                                   <div class="more"></div>
                                 </div>
@@ -133,79 +133,7 @@
                 </ul>
               </div>
             </li>
-            <li class="item cartList">
-              <div class="m-cartGroup">
-                <div>
-                  <header class="hd">
-                    <div class="promotion">
-                      <div class="promotion-left">
-                        <i class="m-checkbox checkbox"></i>
-                      </div>
-                      <a class="promotion-right" href="javascript:;">
-                        <span class="cart-tag tag">满额减</span>
-                        <p class="promTip">再购150元立享每满150元减25元</p>
-                        <div class="promBtn">
-                          <span>去凑单</span>
-                          <i class="u-icon u-icon-arrow_red_ic"></i>
-                        </div>
-                      </a>
-                    </div>
-                  </header>
-                </div>
-                <ul class="list">
-                  <li class="item">
-                    <div class="m-swipeOut">
-                      <div class="inner" style="transform:translate3d(0px, 0, 0);">
-                        <div class="cnt" style="transform:translate3d(0px, 0, 0);">
-                          <div class="m-cartGood">
-                            <div class="m-cartGoodIn">
-                              <i class="m-checkbox checkbox"></i>
-                              <div class="imgWrap">
-                                <img
-                                  src="http://yanxuan.nosdn.127.net/6dbf167f17960ec395af8ce9d6732014.png?imageView&amp;thumbnail=160x0&amp;quality=75"
-                                  class="img"
-                                >
-                              </div>
-                              <div class="cnt">
-                                <div class="line1">
-                                  <div class="name">
-                                    <span class="nameIn">
-                                      <span></span>
-                                      <span>青梅饼 56克</span>
-                                    </span>
-                                  </div>
-                                </div>
-                                <div class="line2 valid">
-                                  <span class="spec">陈皮梅饼 56克*1袋</span>
-                                  <i class="u-icon u-icon-arrow_black_ic"></i>
-                                </div>
-                                <div class="line3">
-                                  <span class="price f-ff-m">
-                                    <span>¥</span>
-                                    <span>16</span>
-                                  </span>
-                                </div>
-                                <div class="m-selnum m-selnum-2 dl">
-                                  <i class="less z-dis" style="display:inline-block"></i>
-                                  <div class="textWrap">
-                                    <input type="tel" value="1">
-                                  </div>
-                                  <div class="more"></div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="goodExtraInfo"></div>
-                          </div>
-                        </div>
-                        <a class="del">
-                          <i class="u-icon u-icon-trash"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </li>
+            
           </ul>
           <div>
             <div style="height: 96px;"></div>
@@ -222,7 +150,7 @@
                 <div class="right f-vc">
                   <p class="price u-text-red s">
                     <span>合计: ¥</span>
-                    <span v-model="price">{{price}}</span>
+                    <span id="conPrice">0</span>
                   </p>
                 </div>
               </div>
@@ -244,48 +172,112 @@ export default {
     return {
       goods: 0,
       price: 0,
-      num:0
+      num:0,
+      list:[]
     };
   },
   mounted(){
+    this.$http({
+      method:'get',
+      url:"http://localhost:3000/wyyx/goods",
+      params:""
+    }).then((res)=>{
+        // console.log(res.data)
+        this.list= res.data
+        console.log(this.list)
+
+    })
     var _this = this
+    setTimeout(function(){
     var oItem = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list")    
     var oHead = document.querySelectorAll(".promotion .promotion-left .m-checkbox")  
     var oCheckAll =  document.querySelectorAll('.checkAll .m-checkbox')[0]
     var oAll=document.querySelectorAll(".m-checkbox")
+    var price = document.getElementById('conPrice')
+    var oDel = document.querySelectorAll(".del")
 
-    
+      console.log(oDel)
+      for(var i=0;i<oDel.length;i++){
+        oDel[i].index=i
+        oDel[i].onclick=function(){
+          _this.$http({
+                method:'get',
+                url:"http://localhost:3000/wyyx/remove",
+                params:_this.goods[this.index]
+            }).then((res)=>{
+                console.log(res.data)
+            })
+            location.reload(true)
+        }
+      }
     
 	  for(var i=0;i<oHead.length;i++){
       oHead[i].index=i
 		    oHead[i].onclick=function(){
+      // console.log(oItem)
+
         var oGoods = oItem[this.index].querySelectorAll(".m-checkbox")
-			  this.classList.toggle("checked")
+        this.classList.toggle("checked")
+        oItem[this.index].classList.toggle("pri")
+        
 			  for(var j=0;j<oGoods.length;j++){
 				  oGoods[j].classList.toggle("checked")
         }
+        var prices=0
+        var oPri = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list.pri")
+        for(var x=0;x<oPri.length;x++){
+          var oPris= oPri[x].querySelectorAll(".prices")[0].innerHTML
+          console.log(Number(oPris))
+            prices+=Number(oPris)
+            console.log(prices)
+        }
+        price.innerHTML=prices
+
         _this.checkAll()
         _this.num = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .checked').length
         _this.price = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .m-cartGoodIn')
-		  }
+      }
+      
     }
     oCheckAll.onclick=function(){
+
       if(document.querySelectorAll(".m-checkbox").length==document.querySelectorAll(".checked").length){
           for(var i=0;i<oAll.length;i++){
             oAll[i].classList.remove('checked')
+            _this.num = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .checked').length
+            _this.price = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .m-cartGoodIn')
+          }
+          for(var i=0;i<oItem.length;i++){
+            oItem[i].classList.remove('pri')
           }
       }else{
           for(var i=0;i<oAll.length;i++){
             oAll[i].classList.add('checked')
+            _this.num = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .checked').length
+            _this.price = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .m-cartGoodIn')
+          }
+          for(var i=0;i<oItem.length;i++){
+            oItem[i].classList.add('pri')
           }
       }
+        var prices=0
+        var oPri = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list.pri")
+        for(var x=0;x<oPri.length;x++){
+          var oPris= oPri[x].querySelectorAll(".prices")[0].innerHTML
+             console.log(oPris)
+            prices+=Number(oPris)
+            console.log(prices)
+        }
+        price.innerHTML=prices
     }
     var oList=document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .m-checkbox')
-    console.log(oList)
     for(var i=0;i<oList.length;i++){
       oList[i].index=i
       oList[i].onclick=function(){
         this.classList.toggle('checked')
+        oItem[this.index].classList.toggle('pri')
+        console.log(oItem)
+
         if(oItem[this.index].querySelectorAll('.cartList .m-cartGroup .list .m-checkbox').length==oItem[this.index].querySelectorAll('.cartList .m-cartGroup .list .m-checkbox.checked').length){
           document.querySelectorAll(".cartGroupList .cartList .m-cartGroup")[this.index].querySelectorAll('.promotion-left .m-checkbox')[0].classList.add('checked')
         }else{
@@ -293,7 +285,15 @@ export default {
         }
         _this.checkAll()
         _this.num = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .checked').length
-
+        var prices=0        
+        var oPri = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list.pri")
+        for(var x=0;x<oPri.length;x++){
+          var oPris= oPri[x].querySelectorAll(".prices")[0].innerHTML
+             console.log(oPris)
+            prices+=Number(oPris)
+            console.log(prices)
+        }
+        price.innerHTML=prices
       }
     }
   // add
@@ -304,7 +304,9 @@ export default {
     for(var i=0;i<oMore.length;i++){
       oMore[i].index=i
       oMore[i].onclick=function(){
-        oNum[this.index].value=Number(oNum[this.index].value)+1;
+        // oNum[this.index].value=Number(oNum[this.index].value)+1;
+        _this.list[this.index].goods_num=Number(_this.list[this.index].goods_num)+1
+        console.log(_this.list)
         if(Number(oNum[this.index].value)>1){
           oBox[this.index].style.backgroundPositionY='-435px'
         }
@@ -316,13 +318,24 @@ export default {
         }
         _this.checkAll()
         _this.num = document.querySelectorAll('.cartGroupList .cartList .m-cartGroup .list .inner .checked').length
-
+        var prices=0        
+        var oPri = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list.pri")
+        for(var x=0;x<oPri.length;x++){
+          var oPris= oPri[x].querySelectorAll(".prices")[0].innerHTML
+            console.log(oPris)
+            prices+=Number(oPris)
+            console.log(prices)
+        }
+        price.innerHTML=prices
       }
     }
     for(var i=0;i<oLess.length;i++){
       oLess[i].index=i
       oLess[i].onclick=function(){
-        oNum[this.index].value=Number(oNum[this.index].value)-1;
+        if(_this.list[this.index].goods_num>1){
+        _this.list[this.index].goods_num=Number(_this.list[this.index].goods_num)-1
+
+        }
         if(Number(oNum[this.index].value)>1){
           oBox[this.index].style.backgroundPositionY='-435px'
         }else{
@@ -335,6 +348,15 @@ export default {
         }else{
           document.querySelectorAll(".cartGroupList .cartList .m-cartGroup")[this.index].querySelectorAll('.promotion-left .m-checkbox')[0].classList.remove('checked')
         }
+        var prices=0
+        var oPri = document.querySelectorAll(".cartGroupList .cartList .m-cartGroup .list.pri")
+        for(var x=0;x<oPri.length;x++){
+          var oPris= oPri[x].querySelectorAll(".prices")[0].innerHTML
+             console.log(oPris)
+            prices+=Number(oPris)
+            console.log(prices)
+        }
+        price.innerHTML=prices
         checkAll()
       }
     }
@@ -394,11 +416,15 @@ export default {
     window.onresize = function(){
         resizeRoot();
     };
+    
+    
+    },1000)
+    
 
     //已选数量：
 
     //总价格：
-    this.price=0
+    // this.price=0
    
     
   },
@@ -414,7 +440,7 @@ export default {
           oCheckAll.classList.remove('checked')
       }
 
-    }
+    },
   }
 };
 </script>

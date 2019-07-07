@@ -15,18 +15,29 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get('/wyyx',(req,res)=>{
+app.get('/wyyx/add',(req,res)=>{
     console.log(req.query)
-        // res.send(req.query)
+    if(req.query!={}){
+        db.add(req.query,'goods',(err,data)=>{
+            res.send(data)
+        })
+    }
     
-    db.add(req.query,'goods',(err,data)=>{
-        res.send(data)
-    })
     // db.find({},'data',(err,data)=>{
     //     res.send(data)
     // })
     // db.update({'name':'tom'},{$set:{'name':'cat'}},'data',(err,data)=>{
     //     res.send({"success":"ok"})
     // })
+})
+app.get('/wyyx/goods',(req,res)=>{
+    db.find({},'goods',(err,data)=>{
+        res.send(data)
+    })
+})
+app.get('/wyyx/remove',(req,res)=>{
+    db.del(req.query,'goods',(err,data)=>{
+        res.send(data)
+    })
 })
 app.listen(3000)
