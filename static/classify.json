@@ -1,0 +1,1563 @@
+{
+    "leftList": [
+        {
+            "classify": "推荐专区",
+            "getId": 1
+        },
+        {
+            "classify": "夏凉专区",
+            "getId": 2
+        },
+        {
+            "classify": "爆品专区",
+            "getId": 3
+        },
+        {
+            "classify": "新品专区",
+            "getId": 4
+        },
+        {
+            "classify": "居家生活",
+            "getId": 5
+        },
+        {
+            "classify": "服饰鞋包",
+            "getId": 6
+        },
+        {
+            "classify": "美食美酒",
+            "getId": 7
+        },
+        {
+            "classify": "个护清洁",
+            "getId": 8
+        },
+        {
+            "classify": "母婴亲子",
+            "getId": 9
+        },
+        {
+            "classify": "运动旅行",
+            "getId": 10
+        },
+        {
+            "classify": "数码家店",
+            "getId": 11
+        },
+        {
+            "classify": "全球特色",
+            "getId": 12
+        }
+    ],
+    "rightList": [
+        {
+            "getId": 1,
+            "csifyTop": "../../static/calssify-img/csify-1.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": null,
+                    "csifySet": [
+                        {
+                            "setId": 1,
+                            "csifySetImg": "../../static/calssify-img/csify-1-1.png",
+                            "csifySetTex": "员工精选好货"
+                        },
+                        {
+                            "setId": 2,
+                            "csifySetImg": "../../static/calssify-img/csify-1-2.png",
+                            "csifySetTex": "优选风味小食每满150-25"
+                        },
+                        {
+                            "setId": 3,
+                            "csifySetImg": "../../static/calssify-img/csify-1-3.png",
+                            "csifySetTex": "户外运动好物特惠"
+                        },
+                        {
+                            "setId": 4,
+                            "csifySetImg": "../../static/calssify-img/csify-1-4.png",
+                            "csifySetTex": "洗护好物2件8折"
+                        },
+                        {
+                            "setId": 5,
+                            "csifySetImg": "../../static/calssify-img/csify-1-5.png",
+                            "csifySetTex": "夏日酒水畅饮199元任选3款"
+                        },
+                        {
+                            "setId": 6,
+                            "csifySetImg": "../../static/calssify-img/csify-1-6.png",
+                            "csifySetTex": "9.9元超值好物"
+                        },
+                        {
+                            "setId": 7,
+                            "csifySetImg": "../../static/calssify-img/csify-1-7.png",
+                            "csifySetTex": "夏日清凉穿搭特价"
+                        },
+                        {
+                            "setId": 8,
+                            "csifySetImg": "../../static/calssify-img/csify-1-8.png",
+                            "csifySetTex": "夏日婴童穿搭买2免1"
+                        },
+                        {
+                            "setId": 9,
+                            "csifySetImg": "../../static/calssify-img/csify-1-9.png",
+                            "csifySetTex": "999+好评"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 2,
+            "csifyTop": "../../static/calssify-img/csify-2.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": null,
+                    "csifySet": [
+                        {
+                            "setId": "FreshFood=1",
+                            "csifySetImg": "../../static/calssify-img/csify-2-1.jpg",
+                            "csifySetTex": "清爽美食"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-2.png",
+                            "csifySetTex": "降温好物"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-3.png",
+                            "csifySetTex": "烈日防晒"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-4.png",
+                            "csifySetTex": "夏季养生"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-5.png",
+                            "csifySetTex": "防蚊驱虫"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-6.png",
+                            "csifySetTex": "夏凉床品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-7.png",
+                            "csifySetTex": "清凉洗护"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-8.png",
+                            "csifySetTex": "夏日穿搭"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-2-9.png",
+                            "csifySetTex": "室内运动好物"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 3,
+            "csifyTop": "../../static/calssify-img/csify-3.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": null,
+                    "csifySet": [
+                        {
+                            "setId": "familylife=1",
+                            "csifySetImg": "../../static/calssify-img/csify-3-1.png",
+                            "csifySetTex": "居家生活"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-2.png",
+                            "csifySetTex": "服饰鞋包"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-3.png",
+                            "csifySetTex": "美食酒水"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-4.png",
+                            "csifySetTex": "个护清洁"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-5.png",
+                            "csifySetTex": "运动旅行"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-6.png",
+                            "csifySetTex": "母婴亲子"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-7.png",
+                            "csifySetTex": "数码家电"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-8.png",
+                            "csifySetTex": "海外精选"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-3-9.png",
+                            "csifySetTex": "特色周边"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 4,
+            "csifyTop": "../../static/calssify-img/csify-4.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": null,
+                    "csifySet": [
+                        {   
+                            "setId":"newfamilylife=1",
+                            "csifySetImg": "../../static/calssify-img/csify-4-1.png",
+                            "csifySetTex": "居家生活新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-2.png",
+                            "csifySetTex": "服饰鞋包新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-3.png",
+                            "csifySetTex": "美食酒水新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-4.png",
+                            "csifySetTex": "个护清洁新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-5.png",
+                            "csifySetTex": "运动旅行新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-6.png",
+                            "csifySetTex": "母婴亲子新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-7.png",
+                            "csifySetTex": "数码家电新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-4-8.png",
+                            "csifySetTex": "全球特色新品"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 5,
+            "csifyTop": "../../static/calssify-img/csify-5.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "夏凉好物",
+                    "csifySet": [
+                        {   
+                            "setId":"Summercool=1",
+                            "csifySetImg": "../../static/calssify-img/csify-5-1-2.png",
+                            "csifySetTex": "夏凉热卖"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-1-3.png",
+                            "csifySetTex": "主题床品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-1-4.png",
+                            "csifySetTex": "北欧原木"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-1-5.png",
+                            "csifySetTex": "餐厨系列"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "床上用品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-2-1.png",
+                            "csifySetTex": "床品件套"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-2-2.png",
+                            "csifySetTex": "被枕盖毯"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-2-3.png",
+                            "csifySetTex": "床垫床褥"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "家居饰品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-3-1.png",
+                            "csifySetTex": "抱枕靠垫"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-3-2.png",
+                            "csifySetTex": "家饰"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-3-3.png",
+                            "csifySetTex": "居家布艺"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "家具家装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-1.png",
+                            "csifySetTex": "客厅家具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-2.png",
+                            "csifySetTex": "卧室家具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-3.png",
+                            "csifySetTex": "办公书房家具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-4.png",
+                            "csifySetTex": "小件家家具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-5.png",
+                            "csifySetTex": "灯具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-4-6.png",
+                            "csifySetTex": "地毯窗帘"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "收纳日用",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-1.png",
+                            "csifySetTex": "收纳"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-2.png",
+                            "csifySetTex": "文具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-3.png",
+                            "csifySetTex": "晾晒除味"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-4.png",
+                            "csifySetTex": "毛巾浴巾"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-5.png",
+                            "csifySetTex": "居家拖鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-5-6.png",
+                            "csifySetTex": "家庭医疗"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "厨房用品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-6-1.png",
+                            "csifySetTex": "锅具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-6-2.png",
+                            "csifySetTex": "餐厨配件"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-6-3.png",
+                            "csifySetTex": "到剪贴板"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "餐具水杯",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-7-1.png",
+                            "csifySetTex": "餐具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-7-2.png",
+                            "csifySetTex": "水具杯壶"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-7-3.png",
+                            "csifySetTex": "茶咖酒局"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "宠物生活",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-8-1.png",
+                            "csifySetTex": "宠物食品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-5-8-2.png",
+                            "csifySetTex": "宠物用品"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 6,
+            "csifyTop": "../../static/calssify-img/csify-6.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "当季热卖",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-1.png",
+                            "csifySetTex": "人气爆款"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-2.png",
+                            "csifySetTex": "夏季新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-3.png",
+                            "csifySetTex": "清凉系列"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-4.png",
+                            "csifySetTex": "居家囤货"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-5.png",
+                            "csifySetTex": "夏日防晒"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-1-6.png",
+                            "csifySetTex": "潮服图鉴"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "男装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-1.png",
+                            "csifySetTex": "男式T恤/POLO"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-2.png",
+                            "csifySetTex": "男式衬衫"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-3.png",
+                            "csifySetTex": "男式裤装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-4.png",
+                            "csifySetTex": "男式牛仔"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-5.png",
+                            "csifySetTex": "男式针织衫/卫衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-2-6.png",
+                            "csifySetTex": "男式外套"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "女装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-1.png",
+                            "csifySetTex": "女式T恤/POLO"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-2.png",
+                            "csifySetTex": "女式衬衫"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-3.png",
+                            "csifySetTex": "女式裙装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-4.png",
+                            "csifySetTex": "女式裤装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-5.png",
+                            "csifySetTex": "女式牛仔"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-6.png",
+                            "csifySetTex": "女式针织衫/卫衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-3-7.png",
+                            "csifySetTex": "女式外套"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "居家内衣",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-1.png",
+                            "csifySetTex": "男式居家服"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-2.png",
+                            "csifySetTex": "女式居家服"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-3.png",
+                            "csifySetTex": "男士内裤"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-4.png",
+                            "csifySetTex": "女士内裤"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-5.png",
+                            "csifySetTex": "女士内衣/文胸"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-6.png",
+                            "csifySetTex": "男士内衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-4-7.png",
+                            "csifySetTex": "短袜/裤袜"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "鞋靴",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-5-1.png",
+                            "csifySetTex": "男鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-5-2.png",
+                            "csifySetTex": "女鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-5-3.png",
+                            "csifySetTex": "拖鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-5-4.png",
+                            "csifySetTex": "鞋配"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "箱包",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-6-1.png",
+                            "csifySetTex": "女士包袋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-6-2.png",
+                            "csifySetTex": "男士包袋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-6-3.png",
+                            "csifySetTex": "钱包及小皮件"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-6-4.png",
+                            "csifySetTex": "行李箱"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "首饰配件",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-1.png",
+                            "csifySetTex": "奢华珠宝"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-2.png",
+                            "csifySetTex": "时尚饰品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-3.png",
+                            "csifySetTex": "腰带腕表"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-4.png",
+                            "csifySetTex": "帽子发饰"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-5.png",
+                            "csifySetTex": "眼睛墨镜"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-7-6.png",
+                            "csifySetTex": "围巾手套"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "Yessing",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-8-1.png",
+                            "csifySetTex": "女装上市"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-8-2.png",
+                            "csifySetTex": "男装上市"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-8-3.png",
+                            "csifySetTex": "女式下装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-6-8-4.png",
+                            "csifySetTex": "男式下装"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 7,
+            "csifyTop": "../../static/calssify-img/csify-7.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "精选美食",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-1-1.png",
+                            "csifySetTex": "新品首发"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-1-2.png",
+                            "csifySetTex": "夏季推荐"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-1-3.png",
+                            "csifySetTex": "好味精选"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "休闲零食",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-2-1.png",
+                            "csifySetTex": "饼干糕点"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-2-2.png",
+                            "csifySetTex": "小食糖巧"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-2-3.png",
+                            "csifySetTex": "肉类零食"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "坚果蜜钱",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-3-1.png",
+                            "csifySetTex": "坚果炒货"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-3-2.png",
+                            "csifySetTex": "蜜钱果干"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "冲饮茗茶",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-4-1.png",
+                            "csifySetTex": "冲调饮品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-4-2.png",
+                            "csifySetTex": "传统名茶"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-4-3.png",
+                            "csifySetTex": "茗茶礼盒"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-4-4.png",
+                            "csifySetTex": "茶包花茶"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "滋补保健",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-5-1.png",
+                            "csifySetTex": "滋补食材"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-5-2.png",
+                            "csifySetTex": "保健品"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "酒水饮料",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-6-1.png",
+                            "csifySetTex": "酒类"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-6-2.png",
+                            "csifySetTex": "乳品饮料"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "粮油调味",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-7-1.png",
+                            "csifySetTex": "方便食品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-7-2.png",
+                            "csifySetTex": "米面粮油"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-7-3.png",
+                            "csifySetTex": "南北干货"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-7-3.png",
+                            "csifySetTex": "调味酱菜"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "生鲜特色",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-8-1.png",
+                            "csifySetTex": "果鲜肉蛋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-8-2.png",
+                            "csifySetTex": "网易黑猪"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-7-8-3.png",
+                            "csifySetTex": "海外美食"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 8,
+            "csifyTop": "../../static/calssify-img/csify-8.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "好物精选",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-1-1.png",
+                            "csifySetTex": "爆款榜单"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-1-2.png",
+                            "csifySetTex": "新品尝鲜"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "面部护理",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-2-1.png",
+                            "csifySetTex": "基础护肤"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-2-2.png",
+                            "csifySetTex": "卸妆洁面"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-2-3.png",
+                            "csifySetTex": "护肤工具"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "个人护理",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-3-1.png",
+                            "csifySetTex": "洗发护发"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-3-2.png",
+                            "csifySetTex": "身体护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-3-3.png",
+                            "csifySetTex": "口腔护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-3-4.png",
+                            "csifySetTex": "女性护理"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "彩妆香水",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-4-1.png",
+                            "csifySetTex": "彩妆修容"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-4-2.png",
+                            "csifySetTex": "香水气氛"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-4-3.png",
+                            "csifySetTex": "彩妆工具"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "个护电器",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-5-1.png",
+                            "csifySetTex": "口腔护理电器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-5-2.png",
+                            "csifySetTex": "面部护理电器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-5-3.png",
+                            "csifySetTex": "头发护理电器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-5-4.png",
+                            "csifySetTex": "具体护理电器"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "纸品清洁",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-6-1.png",
+                            "csifySetTex": "纸品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-6-2.png",
+                            "csifySetTex": "湿巾"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "家清卫浴",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-7-1.png",
+                            "csifySetTex": "衣物护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-7-2.png",
+                            "csifySetTex": "家庭清洁"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-7-3.png",
+                            "csifySetTex": "餐厨清洁"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-7-4.png",
+                            "csifySetTex": "毛巾浴巾"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-7-5.png",
+                            "csifySetTex": "浴室用品"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "成人用品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-8-1.png",
+                            "csifySetTex": "避孕套"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-8-2.png",
+                            "csifySetTex": "女用情趣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-8-3.png",
+                            "csifySetTex": "男用情趣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-8-8-4.png",
+                            "csifySetTex": "润滑液"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 9,
+            "csifyTop": "../../static/calssify-img/csify-9.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "婴童精选",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-1-1.png",
+                            "csifySetTex": "年中爆品大赏"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-1-2.png",
+                            "csifySetTex": "囤货精选"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-1-3.png",
+                            "csifySetTex": "超值夏装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-1-4.png",
+                            "csifySetTex": "新手妈妈指南"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-1-5.png",
+                            "csifySetTex": "礼品甄选"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "童装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-1.png",
+                            "csifySetTex": "上衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-2.png",
+                            "csifySetTex": "下衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-3.png",
+                            "csifySetTex": "裙装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-4.png",
+                            "csifySetTex": "爬服连体衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-5.png",
+                            "csifySetTex": "套装礼盒"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-2-6.png",
+                            "csifySetTex": "内衣/搭配"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "童鞋",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-3-1.png",
+                            "csifySetTex": "儿童鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-3-2.png",
+                            "csifySetTex": "学步鞋"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "洗护喂养",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-4-1.png",
+                            "csifySetTex": "尿裤纸品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-4-2.png",
+                            "csifySetTex": "洗护"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-4-3.png",
+                            "csifySetTex": "喂养"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "孕产妈咪",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-5-1.png",
+                            "csifySetTex": "孕产内衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-5-2.png",
+                            "csifySetTex": "妈咪用品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-5-3.png",
+                            "csifySetTex": "孕产装"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "玩具图书",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-6-1.png",
+                            "csifySetTex": "玩具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-6-2.png",
+                            "csifySetTex": "图书"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "童包出行",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-7-1.png",
+                            "csifySetTex": "推车/童车"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-7-2.png",
+                            "csifySetTex": "安全座椅"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-7-3.png",
+                            "csifySetTex": "童包"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-7-4.png",
+                            "csifySetTex": "儿童雨具/泳具"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "婴童寝居",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-8-1.png",
+                            "csifySetTex": "婴童床品套件"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-8-2.png",
+                            "csifySetTex": "婴童被枕芯类"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-8-3.png",
+                            "csifySetTex": "抱被睡袋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-9-8-4.png",
+                            "csifySetTex": "儿童家具收纳"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 10,
+            "csifyTop": "../../static/calssify-img/csify-10.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "当即热销",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-1-1.png",
+                            "csifySetTex": "夏季清凉防晒"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-1-2.png",
+                            "csifySetTex": "瑜伽系列"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-1-3.png",
+                            "csifySetTex": "出行好物"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "运动男装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-2-1.png",
+                            "csifySetTex": "男式运动T恤"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-2-2.png",
+                            "csifySetTex": "男式运动外套/卫衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-2-3.png",
+                            "csifySetTex": "男式运动裤装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-2-4.png",
+                            "csifySetTex": "男士户外服装"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "运动女装",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-3-1.png",
+                            "csifySetTex": "女式运动T恤"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-3-2.png",
+                            "csifySetTex": "女式运动内衣/泳装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-3-3.png",
+                            "csifySetTex": "女式运动外套/卫衣"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-3-4.png",
+                            "csifySetTex": "女式运动裤装"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-3-5.png",
+                            "csifySetTex": "女式户外服装"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "运动鞋",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-4-1.png",
+                            "csifySetTex": "男式运动鞋"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-4-2.png",
+                            "csifySetTex": "女式运动鞋"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "旅行用品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-5-1.png",
+                            "csifySetTex": "行李箱"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-5-2.png",
+                            "csifySetTex": "颈枕眼罩"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-5-4.png",
+                            "csifySetTex": "雨具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-5-5.png",
+                            "csifySetTex": "旅行收纳"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-5-6.png",
+                            "csifySetTex": "出行用品"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "户外露营",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-6-1.png",
+                            "csifySetTex": "露营野餐"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-6-2.png",
+                            "csifySetTex": "徒步登山"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "运动健身",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-7-1.png",
+                            "csifySetTex": "健身器材"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-7-2.png",
+                            "csifySetTex": "按摩护具"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-7-3.png",
+                            "csifySetTex": "瑜伽美体"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "运动配件",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-8-1.png",
+                            "csifySetTex": "运动配件"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-8-2.png",
+                            "csifySetTex": "运动装备"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-10-8-3.png",
+                            "csifySetTex": "球类运动"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 11,
+            "csifyTop": "../../static/calssify-img/csify-11.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "好货精选",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-1-1.png",
+                            "csifySetTex": "夏季热卖"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-1-2.png",
+                            "csifySetTex": "甄选爆款"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-1-3.png",
+                            "csifySetTex": "颜值好物"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "个护电器",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-2-1.png",
+                            "csifySetTex": "口腔护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-2-2.png",
+                            "csifySetTex": "身体护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-2-3.png",
+                            "csifySetTex": "面部护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-2-4.png",
+                            "csifySetTex": "头发护理"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "生活电器",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-3-1.png",
+                            "csifySetTex": "两季电器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-3-2.png",
+                            "csifySetTex": "清洁电器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-3-3.png",
+                            "csifySetTex": "衣物护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-3-4.png",
+                            "csifySetTex": "空气调节"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "厨房电器",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-4-1.png",
+                            "csifySetTex": "厨房电器"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "按摩电器",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-5-1.png",
+                            "csifySetTex": "按摩器"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-5-2.png",
+                            "csifySetTex": "按摩椅"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "智能生活",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-6-1.png",
+                            "csifySetTex": "智能家居"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-6-2.png",
+                            "csifySetTex": "智能出行"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "3C数码",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-7-1.png",
+                            "csifySetTex": "数码办公"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-7-2.png",
+                            "csifySetTex": "手机配件"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-7-3.png",
+                            "csifySetTex": "车载用品"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "影音娱乐",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-8-1.png",
+                            "csifySetTex": "影音娱乐"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-11-8-2.png",
+                            "csifySetTex": "乐器"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "getId": 12,
+            "csifyTop": "../../static/calssify-img/csify-12.jpg",
+            "csifySetOne": [
+                {
+                    "csifyTopText": "好货精选",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-1-1.png",
+                            "csifySetTex": "当季新品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-1-2.png",
+                            "csifySetTex": "好评推荐"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-1-3.png",
+                            "csifySetTex": "礼品点卡"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-1-4.png",
+                            "csifySetTex": "礼盒"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "进口居家",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-2-1.png",
+                            "csifySetTex": "床品家纺"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-2-2.png",
+                            "csifySetTex": "餐厨用品"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-2-3.png",
+                            "csifySetTex": "日用百货"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "进口洗护",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-3-1.png",
+                            "csifySetTex": "美妆个护"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-3-2.png",
+                            "csifySetTex": "口腔护理"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-3-3.png",
+                            "csifySetTex": "家清卫浴"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "全球配饰",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-4-1.png",
+                            "csifySetTex": "高级珠宝"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-4-2.png",
+                            "csifySetTex": "时尚搭配"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "进口饮食",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-5-1.png",
+                            "csifySetTex": "休闲美食"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-5-2.png",
+                            "csifySetTex": "营养保健"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "特色品牌馆",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-6-1.png",
+                            "csifySetTex": "春风馆"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-6-2.png",
+                            "csifySetTex": "味央馆"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-6-3.png",
+                            "csifySetTex": "Yessing馆"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-6-4.png",
+                            "csifySetTex": "国风馆"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-6-5.png",
+                            "csifySetTex": "东方草木馆"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "图书文娱",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-1.png",
+                            "csifySetTex": "黑胶/CD"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-2.png",
+                            "csifySetTex": "童书/育儿"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-3.png",
+                            "csifySetTex": "文学/小说"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-4.png",
+                            "csifySetTex": "生活/娱乐"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-5.png",
+                            "csifySetTex": "人文/社科"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-7-6.png",
+                            "csifySetTex": "技能/成长"
+                        }
+                    ]
+                },
+                {
+                    "csifyTopText": "周边商品",
+                    "csifySet": [
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-1.png",
+                            "csifySetTex": "云音乐周边"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-2.png",
+                            "csifySetTex": "暴雪周边"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-3.png",
+                            "csifySetTex": "我的世界"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-4.png",
+                            "csifySetTex": "梦幻西游"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-5.png",
+                            "csifySetTex": "大话西游"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-6.png",
+                            "csifySetTex": "阴阳师"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-7.png",
+                            "csifySetTex": "游戏印象"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-8.png",
+                            "csifySetTex": "文创周边"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-9.png",
+                            "csifySetTex": "影视周边"
+                        },
+                        {
+                            "csifySetImg": "../../static/calssify-img/csify-12-8-10.png",
+                            "csifySetTex": "动漫电玩"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
